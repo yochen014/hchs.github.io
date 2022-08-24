@@ -1,12 +1,20 @@
-.title {
-    /*  */
+.top-line {
     position: fixed;
+    color: wheat;
+    width: 1500px;
+}
+
+.title { /*div*/
+    /*  */
+    /* position: fixed; */
     
     width: 300px;
     height: 80px;
     margin-left: 18px;
-    margin-right: 18px;
+    margin-right: 200px;
     vertical-align:top;
+    display: inline-block;
+    z-index: 1;
 }
 
 .first-page {
@@ -22,6 +30,7 @@
     /* background-size: cover; */
     position: absolute; /*讓圖片切齊*/
     display: block;
+    z-index: -1;
 }
 
 .hcsu113th {
@@ -59,4 +68,40 @@
     vertical-align: top;
     /* margin-top: 60px; */
     display: inline-block;
+}
+.menu {
+    position: absolute;
+    color: wheat;
+    
+    width: 1000px;
+    height: 80px;
+    font-weight: 300;
+    font-family: "roboto";
+    font-size: 45px;
+    margin: 0;
+    display: inline-block;
+    z-index: 1;
+    text-align: left;
+}
+.menu-content {
+    
+    font-size: 40px;
+    width: 1000px;
+    
+    display: inline-block;
+}
+ul{
+    color: wheat;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li { /*更改清單選項整體*/
+    
+    color: rgba(34,110,147,1);
+    margin-right: 10px;
+    display: inline-block;
+}
+li a{ /*更改清單選項中文字顏色*/
+    color: wheat;
 }
