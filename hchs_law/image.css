@@ -145,10 +145,10 @@ li a{ /*更改清單選項中文字顏色*/
 }
 
 .sep-line {  /*網頁分隔線*/
-    width: 90%;
+    width: 80%;
     height: 2.5px;
     background-color: rgba(0,0,0,0.150000006);
-    margin-left: 65px;
+    margin-left: 145px;
 }
 
 hr {
@@ -160,4 +160,36 @@ hr {
     align: center;
     margin-top: 20px;
     width: 90%;
+}
+
+.the-news-box1 {
+    width: 95%;
+    height: 500px;
+}
+.the-news-box2 {
+    margin-left: 10%;
+}
+.the-news-title { /*學聯會最新資訊*/
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(34,110,147,1);
+}
+.the-news-content {
+    width: 85%;
+    height: 400px;
+    margin-left: 145px;
+}
+.news-content-line1 {
+    color: rgba(117, 116, 116, 2);
+    font-size: 20px;
+    font-weight: 600;
+}
+.news-content-line1-d {
+    color: rgba(117, 116, 116, 2));
+    font-size: 18px;
+    font-weight: 500px;
+    margin-left: 20px;
+}
+.dot{
+    font-size: 20px;
 }
