@@ -84,12 +84,22 @@
     text-align: left;
 }
 .menu-content {
-    
+    font-weight: 500;
     font-size: 40px;
     width: 1000px;
-    
     display: inline-block;
+    
 }
+.menu-content a{
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.menu-content a:hover {  
+    color: white;  
+    box-shadow: 0 3px 1px rgba(206, 51, 49, 2);
+}
+
 ul{
     color: wheat;
     margin: 0;
