@@ -1,7 +1,10 @@
+
+
 .top-line {
     position: fixed;
     color: wheat;
     width: 1500px;
+    display: block;
 }
 
 .title { /*div*/
@@ -27,17 +30,13 @@
     right: 0;
     width: 1535.5px;
     height: 713.6px;
-    /* background-size: cover; */
+    
     position: absolute; /*讓圖片切齊*/
     display: block;
     z-index: -1;
 }
 
 .hcsu113th {
-    
-    /* position: absolute; */
-    /* width: 512px;
-    height: 529px; */
     
     border: none;
     border-radius: 40px;
@@ -77,25 +76,28 @@
     height: 80px;
     font-weight: 300;
     font-family: "roboto";
-    font-size: 45px;
-    margin: 0;
+    font-size: 30px;
+    margin: 10px 0 0 0;
     display: inline-block;
     z-index: 1;
     text-align: left;
+    vertical-align: middle;
 }
 .menu-content {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     width: 1000px;
+    vertical-align:bottom;
     display: inline-block;
     
 }
-.menu-content a{
+.menu-content a{ /*菜單列表的文字*/
+    
     transition-duration: 0.2s;
     transition-property: all;
     transition-timing-function: ease-in-out;
 }
-.menu-content a:hover {  
+.menu-content a:hover {  /*鼠標懸停時文字變化*/
     color: white;  
     box-shadow: 0 3px 1px rgba(206, 51, 49, 2);
 }
@@ -114,4 +116,48 @@ li { /*更改清單選項整體*/
 }
 li a{ /*更改清單選項中文字顏色*/
     color: wheat;
+}
+
+.first-page-bottom { /*div*/
+    color: wheat;
+    width: 1500px;
+    height: 680px;
+    margin: 0;
+    text-align: right;
+    display: inline-block;
+    z-index: 1;
+}
+.hchs-student-asso {
+    /**/
+    font-size: 110px;
+    font-weight: 700;
+    width: 500px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    margin-right: 0px;
+    text-align: center;
+    display: inline-block;
+}
+.sep-line-box { /*網頁分隔線布局*/
+    margin-top: 15px;
+    width: 100%;
+    height: 20px;
+}
+
+.sep-line {  /*網頁分隔線*/
+    width: 90%;
+    height: 2.5px;
+    background-color: rgba(0,0,0,0.150000006);
+    margin-left: 65px;
+}
+
+hr {
+    top: 0px;
+    size: 8px;
+    z-index: 2;
+    color: rgba(121, 120, 120, 3);
+    border-style: solid;
+    align: center;
+    margin-top: 20px;
+    width: 90%;
 }
