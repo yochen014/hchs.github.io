@@ -153,11 +153,14 @@ li a{ /*更改清單選項中文字顏色*/
 }
 .the-news-box2 {
     margin-left: 10%;
+    height: 70px;
+    
 }
 .the-news-title { /*學聯會最新資訊*/
     font-size: 28px;
     font-weight: 500;
     color: rgba(34,110,147,1);
+    display: inline-block;
 }
 .the-news-content {
     width: 85%;
@@ -183,4 +186,18 @@ li a{ /*更改清單選項中文字顏色*/
 }
 .dot{
     font-size: 20px;
+}
+
+.ig-info {
+    width: 500px;
+    height: 40px;
+    display: inline-block;
+    
+}
+
+.ig-link {
+
+    width: 25px;
+    height: 25px;
+    z-index: 2;
 }
