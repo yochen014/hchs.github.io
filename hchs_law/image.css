@@ -223,7 +223,7 @@ li a{ /*更改清單選項中文字顏色*/
 
 .ig-news-box1 {
     width: 95%;
-    height: 500px;
+    height: 1500px;
 }
 .ig-news-box2 {
     margin-left: 10%;
@@ -248,4 +248,26 @@ li a{ /*更改清單選項中文字顏色*/
 }
 .ig-news-title:hover {
     color: rgba(59, 144, 248, 2);
+}
+
+.ig-post-box {
+    height: 900px;
+    margin-right: 70px;
+    margin-left: 250px;
+}
+.ig-post { /*哀居貼文屬性*/
+    height: 795px;
+    width: 515px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.ig-post-link {
+    transition-duration: 0.3s;
+}
+.ig-post-link:hover {
+    box-shadow: 10px 10px 47px 10px rgba(0,0,0,0.75);
+}
+.ig-post-link:active {
+    height: 662.5px;
+    width: 430px;
 }
