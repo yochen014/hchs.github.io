@@ -1,5 +1,7 @@
+
+
 .top-line {
-    position: fixed;
+    /* position: fixed; */ /*固定上排功能:未開啟*/
     color: wheat;
     width: 1500px;
     display: block;
@@ -34,6 +36,7 @@
 .hcsu113th {
     
     border: none;
+    
     border-radius: 40px;
     max-height: 56px;
     max-width: 225px;
@@ -50,8 +53,8 @@
 
 .hello{
     color: wheat;
+    
     font-weight: 300;
-    font-family: "roboto";
     font-size: 50px;
     margin-left: 10px;
     margin-right: 10px;
@@ -84,6 +87,7 @@
     width: 1000px;
     vertical-align:bottom;
     display: inline-block;
+    font-family: 'Noto Sans TC', sans-serif;
     
 }
 .menu-content a{ /*菜單列表的文字*/
@@ -116,7 +120,7 @@ li a{ /*更改清單選項中文字顏色*/
 .first-page-bottom { /*div*/
     color: wheat;
     width: 1500px;
-    height: 680px;
+    height: 600px;
     margin: 0;
     text-align: right;
     display: inline-block;
@@ -149,7 +153,7 @@ li a{ /*更改清單選項中文字顏色*/
 
 .the-news-box1 {
     width: 95%;
-    height: 500px;
+    height: 800px;
 }
 .the-news-box2 {
     margin-left: 10%;
@@ -158,19 +162,21 @@ li a{ /*更改清單選項中文字顏色*/
 }
 .the-news-title { /*學聯會最新資訊*/
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 300;
     color: rgba(34,110,147,1);
     display: inline-block;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 .the-news-content {
     width: 85%;
-    height: 400px;
+    height: 700px;
     margin-left: 145px;
 }
 .news-content-line1 {
     color: rgba(117, 116, 116, 2);
     font-size: 20px;
     font-weight: 600;
+    
 }
 .news-content-line1-d {
     color: rgba(117, 116, 116, 2);
@@ -184,8 +190,21 @@ li a{ /*更改清單選項中文字顏色*/
     font-weight: 500px;
     margin-left: 30px;
 }
+.news-content-line2-box {
+    width: 1200px;
+    height: 150px;
+    display: inline-block;
+}
+.news-content-line2-d {
+    color: rgba(117, 116, 116, 2);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 28px;
+}
+
 .dot{
     font-size: 20px;
+    display: inline-block;
 }
 
 .ig-info {
@@ -200,4 +219,33 @@ li a{ /*更改清單選項中文字顏色*/
     width: 25px;
     height: 25px;
     z-index: 2;
+}
+
+.ig-news-box1 {
+    width: 95%;
+    height: 500px;
+}
+.ig-news-box2 {
+    margin-left: 10%;
+    height: 70px;
+    vertical-align: top;
+}
+.ig-news-title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: rgba(34,110,147,1);
+    display: inline-block;
+}
+.title-link-float {
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.title-link-float:hover {
+    box-shadow: 0px 3px 0 rgba(34, 110, 147, 5);
+}
+.ig-news-title:hover {
+    color: rgba(59, 144, 248, 2);
 }
