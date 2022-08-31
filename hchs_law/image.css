@@ -278,10 +278,12 @@ li a{ /*更改清單選項中文字顏色*/
     height: 60px;
     margin-right: 8px;
     margin-bottom: 30px;
+    
     color: whitesmoke;
     font-size: 20px;
     font-family: 'Noto Sans TC';
     background-color: rgb(34, 82, 171);
+    text-align: center;
     border: none;
     border-radius: 4px;
     cursor: pointer;
